@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Our Game</title>
+    <script type="text/javascript" src="js/pixi.dev.js"></script>
+    <script type="text/javascript" src="main_game.js"></script>
+</head>
+
+<body>
+
+<script type="text/javascript">
+
+    var config = {
+                width: 800,
+                height: 600,
+                pixelSize: 24,
+                bgColor: 0x000000
+            },
+            stage = new PIXI.Stage(config.bgColor, true),
+            renderer = PIXI.autoDetectRenderer(config.width, config.height),
+            graphics = new PIXI.Graphics();
+
+    // add the renderer view element to the DOM
+    document.body.appendChild(renderer.view);
+    startGame(stage, requestAnimFrame, config);
+
+</script>
+
+</body>
+
+</html>
