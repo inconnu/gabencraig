@@ -26,7 +26,7 @@ In our project you can enter the src directory and start node.js:
 
 Then head over to the game page by using this URL:
 
-http://localhost:8080/index.html
+[http://localhost:8080/index.html](http://localhost:8080/index.html)
 
 You can also run node.js from within IntelliJ, which also can connect to Chrome to debug.
 
